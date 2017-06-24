@@ -15,7 +15,7 @@ var passport   =     require("passport");
   router.get("/", function(req, res){
     
     
-    res.send("Welcome to yelpcamp");
+    res.render("landing");
     
 });
 

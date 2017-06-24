@@ -107,8 +107,10 @@
             
             <% campground.comment.forEach(function(comment) { %>
         <div id="comment">
-                  <p><strong><%= comment.author.username %></strong></p>
-         <p><%= comment.text %></p>
+                  <p class="pull-left"><strong><%= comment.author.username %></strong></p>
+                  <p class="pull-right"><%= comment.date %></p>
+                  <% console.log(comment) %>
+         <p id="comment-text"><%= comment.text %></p>
             
             <% if(currentUser && currentUser._id.equals(comment.author.id)){ %>
             

@@ -1,6 +1,8 @@
 
 var mongoose=  require("mongoose");
 
+var moment  =  require("moment");
+
 
 
 var postSchema = new mongoose.Schema({
@@ -13,6 +15,12 @@ var postSchema = new mongoose.Schema({
         
         username: String
         
+        
+    },
+    
+    date:{
+           type:String,
+        default: moment().calendar().toString()
         
     },
     

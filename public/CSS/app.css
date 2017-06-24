@@ -1,3 +1,14 @@
+
+body, html{
+    height: 100%;
+}
+
+.navbar-default{
+    
+    margin-bottom: 0px;
+}
+
+
 .thumbnail .caption-full p{
     
     
@@ -7,6 +18,10 @@
 #comment {
     
     clear: both;
+}
+
+#comment-text{
+    clear:both;
 }
 
 .thumbnail img {
@@ -51,4 +66,45 @@
 input{
     
    margin: 10px 0px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    
+    width:100%;
+    height: 100%;
+    margin-top:0px;
+    opacity:0.9;
+    
+}
+
+.carousel,.item,.active{height:100%;}
+
+.carousel-inner{height:100%;}
+
+.carousel-indicators{
+    
+    bottom:30px;
+}
+
+#jumbotron-landing  {
+    
+    
+    position:absolute;
+    
+   
+    margin: 0 auto;
+    background-color: transparent;
+    
+    text-align: center;
+    top: 30%;
+    left:20%;
+    color: #F5F2F7;
+   
+
+;
+}
+
+#jumbotron-landing .caption {
+    
+    text-shadow:  2px 1px 10px black
 }

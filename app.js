@@ -108,7 +108,7 @@ app.use(IndexRoutes);
 //=======================================================
 //             Listening Port
 //========================================================
-app.listen(process.env.PORT,process.env.IP, function(){
+app.listen(process.env.PORT, process.env.IP, function(){
     
     
    console.log("GoCamp server has started");
