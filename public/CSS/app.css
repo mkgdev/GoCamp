@@ -1,0 +1,54 @@
+.thumbnail .caption-full p{
+    
+    
+    clear:both;
+}
+
+#comment {
+    
+    clear: both;
+}
+
+.thumbnail img {
+    width :100%;
+}
+
+
+#addComment{
+    
+    margin-bottom: 10px;
+    
+}
+
+.caption-full{
+    
+    padding:9px;
+}
+
+#delete {
+    
+    display:inline;
+}
+
+#login-container, #register-container,#campground-container, #comment-container{
+    
+    text-align: center;
+}
+
+#login-form, #register-form, #campground-form, #comment-form{
+    
+    width:33%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#index-thumbnail {
+    
+    text-align: center;
+}
+
+
+input{
+    
+   margin: 10px 0px;
+}
