@@ -18,9 +18,14 @@ var express             =          require("express"),
     IndexRoutes         =          require("./routes/index");           //Authentication Routes
 
 
+var DBURL = process.env.url;
 
+if(!DBURL)
+    {
+        DBURL= "mongodb://localhost/go_camp";
+    }
 
- mongoose.connect("mongodb://localhost/yelp_camp");
+ mongoose.connect(DBURL);
 
     app.use(express.static(__dirname+"/public"));
 
