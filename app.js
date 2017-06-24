@@ -111,7 +111,7 @@ app.use(IndexRoutes);
 app.listen(process.env.PORT,process.env.IP, function(){
     
     
-   console.log("Yelpcamp server has started");
+   console.log("GoCamp server has started");
    
     
 });
