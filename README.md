@@ -1,7 +1,7 @@
 # GoCamp
 GoCamp a site running on Node js
 
-#Configuration to run on local server
+# Configuration to run on local server
 > Change the following in app.js
 
 ```
@@ -14,7 +14,7 @@ console.log("GoCamp server has started");
 
 ```
 
-#Configuration to run on Cloud  server
+# Configuration to run on Cloud  server
 > Change the following in app.js
 
 ```
@@ -24,9 +24,10 @@ console.log("GoCamp server has started");
 
 });
 
+```
 
 
-#Running the app
+# Running the app
 ```
 npm start
 
