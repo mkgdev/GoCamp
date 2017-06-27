@@ -1,5 +1,5 @@
 # GoCamp
-GoCamp a site running on Node js  - [heroku](http://www.go-camp.herokuapp.com)
+GoCamp a site running on Node js  - [heroku](http://go-camp.herokuapp.com)
 
 # Configuration to run on local server
 > Change the following in app.js
